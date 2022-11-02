@@ -10,11 +10,9 @@ La idea de hacer un healthecheck automatizado mediante un playbook, nace de la r
 La principal funcion del producto, es poder ejecutar y cumplir con las espectativas del healthcheck que se realiza diariamente, para eso, tomamos como referencia el heathcheck manual que hay actualmente y en base a eso estructuramos el playbook, de manera que cada tarea que se ingrese en el playbook corresponda a lo que se desea visualizar, guiandonos por el healthcheck manual que hay actualmente.
 
 Respecto a la funcionalidad del producto, actualmente se ejecuta localmente en una maquina Linux, dicha maquina linux debe contener los siguientes servicios:
-	*Servicio ansible
-	*Servicio gem
-	*Servicio asciidoctor
-	*Habilitación de comandos OC en la maquina.
-	*Servicio jq
+* [Ansible]([http://www.dropwizard.io/1.0.2/docs](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-ansible-on-ubuntu-20-04-es)/) - Instalación modulo ansible
+* [Maven](https://maven.apache.org/) - Manejador de dependencias
+* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
 
 ### Instalación 🔧
 
