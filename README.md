@@ -1,10 +1,8 @@
-# Título del Proyecto
+# Introducción al producto y su función dentro del proyecto
 
-_Acá va un párrafo que describa lo que es el proyecto_
+## Healthcheck automatizado mediante un playbook
 
-## Comenzando 🚀
-
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+La idea de hacer un healthecheck automatizado mediante un playbook, nace de la raiz en donde el cliente, en este caso Banco Pichincha, ejecuta  un healthcheck diario a mano, lo que quiere decir es que ingresan al cluster, extraen los datos mediante comandos OC y los guardan en una carpeta, también extraer información del grafana alojado en su cluster, mediante Screenshots. Luego de analizar este procedimiendo, se llego a la conclusión de que este  procedimiento se podía ejecutar mediante un playbook, de manera que este playbook, vaya ejecutando las tareas que se hacen manualmente, para poder extraer la información del cluster y ver el estado de este mismo.
 
 Mira **Deployment** para conocer como desplegar el proyecto.
 
