@@ -1,11 +1,6 @@
 <head>
 <title align="center"> Introducción al producto y su función dentro del proyecto </title>
 </head>
-##Ìndice
-*[Healthcheck automatizado mediante un playbook](#Healthcheck-automatizado-mediante-un-playbook)
-*[Funcionalidad y estructura del producto](#Funcionalidad-y-estructura-del-producto)
-*[Uso y Ejecución del playbook](#Uso-y-ejecución-del-playbook)
-*[Referencias y documentación](#Referencias-y-documentación)
 <body>
 	<h1 align="center"> Healthcheck automatizado mediante un playbook </h1>
 <p> La idea de hacer un healthecheck automatizado mediante un playbook, nace de la raiz en donde el cliente, en este caso Banco Pichincha, ejecuta 
@@ -14,6 +9,8 @@ extraer información del grafana alojado en su cluster, mediante Screenshots. Lu
 procedimiento se podía ejecutar mediante un playbook, de manera que este playbook, vaya ejecutando las tareas que se hacen manualmente, para poder extraer
 la información del cluster y ver el estado de este mismo.
 </p>
+</body>
+<body>
 
 	<h1 align="center"> Funcionalidad y estructura del producto </h1>
 	
@@ -21,6 +18,7 @@ la información del cluster y ver el estado de este mismo.
 como referencia el heathcheck manual que hay actualmente y en base a eso estructuramos el playbook, de manera que cada tarea que se ingrese en el playbook
 corresponda a lo que se desea visualizar, guiandonos por el healthcheck manual que hay actualmente.
 </p>
+	
 
 <p> Respecto a la funcionalidad del producto, actualmente se ejecuta localmente en una maquina Linux, dicha maquina linux debe contener los siguientes servicios:
 	-Servicio ansible
