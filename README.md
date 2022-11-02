@@ -4,16 +4,17 @@
 
 La idea de hacer un healthecheck automatizado mediante un playbook, nace de la raiz en donde el cliente, en este caso Banco Pichincha, ejecuta  un healthcheck diario a mano, lo que quiere decir es que ingresan al cluster, extraen los datos mediante comandos OC y los guardan en una carpeta, también extraer información del grafana alojado en su cluster, mediante Screenshots. Luego de analizar este procedimiendo, se llego a la conclusión de que este  procedimiento se podía ejecutar mediante un playbook, de manera que este playbook, vaya ejecutando las tareas que se hacen manualmente, para poder extraer la información del cluster y ver el estado de este mismo.
 
-Mira **Deployment** para conocer como desplegar el proyecto.
 
+### Funcionalidad y estructura del producto
 
-### Pre-requisitos 📋
+La principal funcion del producto, es poder ejecutar y cumplir con las espectativas del healthcheck que se realiza diariamente, para eso, tomamos como referencia el heathcheck manual que hay actualmente y en base a eso estructuramos el playbook, de manera que cada tarea que se ingrese en el playbook corresponda a lo que se desea visualizar, guiandonos por el healthcheck manual que hay actualmente.
 
-_Que cosas necesitas para instalar el software y como instalarlas_
-
-```
-Da un ejemplo
-```
+Respecto a la funcionalidad del producto, actualmente se ejecuta localmente en una maquina Linux, dicha maquina linux debe contener los siguientes servicios:
+	*Servicio ansible
+	*Servicio gem
+	*Servicio asciidoctor
+	*Habilitación de comandos OC en la maquina.
+	*Servicio jq
 
 ### Instalación 🔧
 
