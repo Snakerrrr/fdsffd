@@ -44,3 +44,4 @@ corresponda a lo que se desea visualizar, guiandonos por el healthcheck manual q
 <p> 
 <a href="https://docs.ansible.com/ansible/latest/index.html"> Documentación oficial modulo ansible </a> 
 <a href="https://docs.asciidoctor.org/pdf-converter/latest/convert-to-pdf/"> Conversión de archivo .adoc a PDF, con modulo asciidoctor </a>
+</body>
