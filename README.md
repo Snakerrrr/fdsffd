@@ -15,7 +15,7 @@ procedimiento se podía ejecutar mediante un playbook, de manera que este playbo
 la información del cluster y ver el estado de este mismo.
 </p>
 
-	<h2 align="center"> Funcionalidad y estructura del producto </h2>
+	<h1 align="center"> Funcionalidad y estructura del producto </h1>
 	
 <p> La principal funcion del producto, es poder ejecutar y cumplir con las espectativas del healthcheck que se realiza diariamente, para eso, tomamos
 como referencia el heathcheck manual que hay actualmente y en base a eso estructuramos el playbook, de manera que cada tarea que se ingrese en el playbook
